@@ -7,10 +7,21 @@ class HomeController
 {
     public function index()
     {
-        echo "Hello, MVC!";
-        // $model = new Home();
-        // $data = ['message' => $model->getMessage()];
+        echo "Welcome index!";
+    }
 
-        // include_once __DIR__ . '/app/views/home.php';
+    public function store()
+    {
+        echo "Welcome store";
+    }
+
+    public function update()
+    {
+        echo "Welcome update";
+    }
+
+    public function delete()
+    {
+        echo "Welcome delete";
     }
 }
