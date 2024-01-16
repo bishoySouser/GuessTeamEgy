@@ -7,11 +7,11 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/app/Routes/Web.php';
 
 
-use App\Router;
+App\Routes\Route::dispatch();
 
 
-$router = new Router();
-$router->route();
+// $router = new Router();
+// $router->route();
 
 // $controller = new HomeController();
 // $controller->index();
